@@ -2,22 +2,22 @@
 import React, { useState } from "react";
 
 const Skills = ({ data }) => {
-	const [activeTab, setActiveTab] = useState("soft");
+	const [activeTab, setActiveTab] = useState("frontend");
 
 	const setBg = (active) => (activeTab === active ? "bg-yellow" : "bg-grey");
 	const setTabsAlignment = (tab) =>
-		tab === "soft" ? "text-left" : "text-right";
+		tab === "frontend" ? "text-left" : "text-right";
 
 	const tabs = (
 		<div className='flex'>
-			{["soft", "hard"].map((el) => (
+			{["frontend", "backend"].map((el) => (
 				<button
 					key={el}
 					type='button'
 					className={`btn ${setBg(el)} ${setTabsAlignment(el)}`}
 					onClick={() => setActiveTab(el)}
 				>
-					{el} Skills
+					{el} Technology
 				</button>
 			))}
 		</div>
