@@ -32,7 +32,7 @@ export const skills = {
 		{ icon: "⌛️", text: "Chakara" },
 		{ icon: "🚀", text: "Angular" },
 		{ icon: "💾", text: "ReactJS" },
-		{ icon: "NJ", text: "NextJS13" },
+		{ icon: "nj", text: "NextJS13" },
 	],
 	backend: [
 		{ icon: "ʦ", text: "TypeScript" },

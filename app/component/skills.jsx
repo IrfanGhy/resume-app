@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const Skills = ({ data }) => {
 	const [activeTab, setActiveTab] = useState("frontend");
 
-	const setBg = (active) => (activeTab === active ? "bg-yellow" : "bg-grey");
+	const setBg = (active) => (activeTab === active ? "bg-red" : "bg-grey");
 	const setTabsAlignment = (tab) =>
 		tab === "frontend" ? "text-left" : "text-right";
 
