@@ -47,5 +47,5 @@ main h2 {
 }
 
 .skill {
-	@apply bg-green-light text-lg py-2 px-4 w-fit rounded-md;
+	@apply bg-gray-light text-lg py-2 px-4 w-fit rounded-md;
 }
