@@ -17,7 +17,7 @@ const Skills = ({ data }) => {
 					className={`btn ${setBg(el)} ${setTabsAlignment(el)}`}
 					onClick={() => setActiveTab(el)}
 				>
-					{el} Technology
+					{el} Skills
 				</button>
 			))}
 		</div>
