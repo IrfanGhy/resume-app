@@ -17,7 +17,7 @@ const Skills = ({ data }) => {
 					className={`btn ${setBg(el)} ${setTabsAlignment(el)}`}
 					onClick={() => setActiveTab(el)}
 				>
-					{el} Skills
+					{el}
 				</button>
 			))}
 		</div>
@@ -25,11 +25,11 @@ const Skills = ({ data }) => {
 	const content = (
 		<ul
 			className={`flex flex-row flex-wrap content-start list-none py-4 gap-2 ${
-				activeTab === "soft" ? "justify-start" : "justify-end"
+				activeTab === "soft" ? "justify-start" : "justify-start"
 			}`}
 		>
 			{data[activeTab].map(({ icon, text }) => (
-				<li key={text} className='skill'>
+				<li key={text} className='skill justify-center'>
 					<span> {icon}</span> {text}
 				</li>
 			))}
