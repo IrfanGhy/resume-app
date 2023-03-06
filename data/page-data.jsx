@@ -8,7 +8,6 @@ export const personalData = {
 		"mailto:mailto:irfanghyann@gmail.com",
 		"https://twitter.com/irfanghyann",
 		"https://www.linkedin.com/in/irfan-ghyan-1a3a9239/",
-		"#",
 	],
 };
 
@@ -44,16 +43,16 @@ export const professionalData = {
 	title: "Professional Experience",
 	experiences: [
 		{
-			role: "Web Developer, O3 Interfaces (2022-Present)",
+			role: "Front end Developer, O3 Interfaces (2022-Present)",
 			description:
-				"Worked with s team of developers to resolve front-end using Html, CSS, JavaScript, Angular ",
+				"Building, optimizing and maintaining front-end web apps. Maintaining high performance and compatibility across platforms and devices. Writing tested, idiomatic, and documented JavaScript, HTML and CSS. Understanding what is needed for a smooth workflow between yourself, the front-end developers and designers. Communicate thoroughly with the back-end department to help build a best-practice RESTful API. Integrate external web services.",
 			current: true,
 		},
 
 		{
 			role: "Front End Developer, Zigron. (December 2020 – September 2021 )",
 			description:
-				"Developing web application across platform and mobile apps using Html, CSS, JavaScript, Angular, reactJS in frontend",
+				"Work closely with design, product management, and development teams to create elegant, usable, responsive and interactive interfaces across multiple devices. Turning UI/UX designs into prototypes, creating excellent interactions from designs, writing reusable content modules and maintainability of the code. Review and optimize the app usage by monitoring key metrics and rectifying the issues proactively. An ability to perform well in a fast-paced environment and bring in optimal flow for rapidly changing design/ technology.",
 			current: false,
 		},
 		{

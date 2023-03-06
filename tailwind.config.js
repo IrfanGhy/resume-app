@@ -7,13 +7,13 @@ module.exports = {
 	],
 	theme: {
 		colors: {
-			black: "#191A19",
-			silver: "#636363",
-			red: "#E20303",
-			grey: "#F3F3F3",
+			black: "#2D3956",
+			silver: "#DDDBDE",
+			red: "#FF1A00",
+			grey: "#DDDBDE",
 			"grey-light": "#FAFAFA",
 			"gray-light": "#777777",
-			white: "#fff",
+			white: "#ffffff",
 		},
 		fontFamily: {
 			sans: ["Georgia", "sans-serif"],

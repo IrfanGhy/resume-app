@@ -12,8 +12,8 @@ const Sidebar = ({ data }) => {
 				<Image
 					priority
 					width={300}
-					height={300}
-					className='rounded-full h-full mb-6'
+					height={200}
+					className='rounded-full mb-6'
 					src='/images/irfanP.jpg'
 					alt='irfanP.jpg'
 					aria-label='irfanP.jpg'
@@ -46,13 +46,13 @@ const Sidebar = ({ data }) => {
 						>
 							<Linkedin />
 						</a>
-						<a
+						{/* <a
 							className='icons-contactme'
 							href={contactLinks?.[3]}
 							aria-label={"medium link"}
 						>
 							<Medium />
-						</a>
+						</a> */}
 					</div>
 				</div>
 			</div>
