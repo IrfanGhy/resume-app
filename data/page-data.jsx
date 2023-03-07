@@ -25,6 +25,7 @@ export const skills = {
 		{ icon: "💬", text: "CSS3" },
 		{ icon: "💾", text: "SASS" },
 		{ icon: "ʦ", text: "TypeScript" },
+		{ icon: "js", text: "JavaScript" },
 		{ icon: "👥", text: "Material UI" },
 		{ icon: "⽓", text: "Bootstrap4" },
 		{ icon: "💡", text: "Tailwind" },
